@@ -55,6 +55,10 @@ html {
     background-color: #516091;
     transition: var(--transition-bg);
   }
+  .gsap {
+    background-color: #88ce02;
+    transition: var(--transition-bg);
+  }
 }
 
 html.dark {
@@ -96,5 +100,8 @@ html.dark {
   }
   .liquid {
     background-color: #7ab55c;
+  }
+  .gsap {
+    background-color: #a3e635;
   }
 }

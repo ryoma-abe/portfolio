@@ -12,17 +12,20 @@ const { title, projects } = t('projects', {
     <span>{title}</span>
   </h2>
   {
-    projects.map(({ title, description, image, techs, code, preview }) => (
-      <CardProject
-        src={image}
-        alt={title}
-        title={title}
-        description={description}
-        techs={techs}
-        code={code}
-        preview={preview}
-      />
-    ))
+    projects.map(
+      ({ title, description, image, techs, code, preview, link }) => (
+        <CardProject
+          src={image}
+          alt={title}
+          title={title}
+          description={description}
+          techs={techs}
+          code={code}
+          preview={preview}
+          link={link}
+        />
+      )
+    )
   }
 </section>
 

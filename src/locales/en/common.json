@@ -1,142 +1,143 @@
 {
-  "title": "Freelance EC Engineer - Ryo",
-  "description": "Freelance engineer based in Hokkaido, specializing in EC site development using Shopify and WordPress.",
+  "title": "フリーランスECエンジニア - りょう",
+  "description": "北海道を拠点に活動するフリーランスエンジニア。ShopifyやWordPressを使用したECサイト構築を得意としています。",
   "navbar": [
     {
-      "label": "Top",
+      "label": "トップ",
       "href": "#top"
     },
     {
-      "label": "Career",
+      "label": "経歴",
       "href": "#career"
     },
     {
-      "label": "Works",
+      "label": "実績",
       "href": "#works"
     },
     {
-      "label": "About",
+      "label": "自己紹介",
       "href": "#about"
     }
   ],
   "hero": {
-    "job_availability": "Available as Freelancer",
+    "job_availability": "フリーランスとして活動中",
     "title": "RyoCode",
-    "job_title": "<strong>Freelance Engineer</strong> based in Hokkaido, Japan",
-    "description": "Specializing in EC site development using Shopify and WordPress. Offering comprehensive services from coding to design.",
-    "cta": "Contact Me"
+    "job_title": "北海道を拠点に活動する<strong>フリーランスエンジニア</strong>です",
+    "description": "ShopifyやWordPressを使ったECサイト構築を得意としています。コーディングからデザインまで一貫して対応可能です。",
+    "cta": "お問い合わせ"
   },
   "experience": {
-    "title": "Work Experience",
+    "title": "職務経歴",
     "jobs": {
-      "jobs_title": ["Freelance", "Japan Ground Self-Defense Force"],
+      "jobs_title": ["フリーランス", "陸上自衛隊"],
       "jobs_description": [
         {
-          "title": "Freelance EC Engineer",
-          "time": ["Feb 2022 - Present"],
-          "description": "Focusing on EC site development and customization using Shopify. Creating sites that combine modern UI/UX design with high performance. Also providing technical support for sales growth through site renewals, SEO optimization, and performance improvements.",
+          "title": "フリーランスECエンジニア",
+          "time": ["2022年2月〜現在"],
+          "description": "Shopifyを使用したECサイト構築やカスタマイズを中心に活動。UI/UXを重視した最新のデザインと、高いパフォーマンスを両立したサイト制作を行っています。また、既存サイトのリニューアルやSEO対策、表示速度の最適化など、売上向上のための技術支援も提供しています。",
           "list": [
-            "30+ Shopify customization projects",
-            "20+ New EC site developments",
-            "Subscription-based EC implementation",
-            "Cross-border EC solutions",
-            "Instructor at Samurai Engineer"
+            "Shopifyカスタマイズ：30件以上",
+            "新規EC構築：20件以上",
+            "サブスクリプション型ECの構築",
+            "越境EC対応",
+            "侍エンジニア講師として指導"
           ]
         },
         {
-          "title": "Japan Ground Self-Defense Force",
-          "time": ["April 2011", "January 2022"],
-          "description": "Served in the Japan Ground Self-Defense Force for 11 years, developing teamwork, leadership, and crisis management skills. These experiences now enhance project management and client communication abilities.",
+          "title": "陸上自衛隊",
+          "time": ["2011年4月", "2022年1月"],
+          "description": "11年間にわたり陸上自衛隊に所属。組織での任務遂行を通じて、チームワークやリーダーシップ、危機管理能力を養いました。この経験は現在のプロジェクト管理や顧客とのコミュニケーションに活かされています。",
           "list": [
-            "Team management experience",
-            "Crisis management & problem-solving skills",
-            "Organizational communication"
+            "チームマネジメント経験",
+            "危機管理・問題解決能力の向上",
+            "組織内コミュニケーション"
           ]
         }
       ]
     }
   },
   "projects": {
-    "title": "Portfolio",
+    "title": "制作実績",
     "projects": [
       {
-        "title": "Luxury Watch Store EC Site",
-        "description": "Built an EC site for a luxury watch store using Shopify. Implemented membership system, cross-border EC functionality, and inventory synchronization. Improved conversion rate by 1.5x through site speed optimization.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Source Code",
-        "preview": "View Site"
+        "title": "ポリカーボネートオーダーメイドECサイト",
+        "description": "Shopifyを使用したポリカーボネートオーダーメイドECサイト構築を担当いたしました。オーダーメイドシステムの実装や計算ロジックにより、ユーザーが簡単に希望通りの商品を購入できるようにしました。",
+        "image": "/src/images/projects/project_01.png",
+        "techs": ["HTML", "CSS", "JavaScript", "Shopify"],
+        "link": "https://polyca.shop/",
+        "preview": "サイトを見る"
       },
       {
-        "title": "Organic Food Subscription EC Site",
-        "description": "Developed a subscription-based EC site using WordPress and WooCommerce. Implemented regular delivery system, customer management, and point system. Achieved 150% increase in monthly sales.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Source Code",
-        "preview": "View Site"
+        "title": ".CELLESSENCE様 ECサイト",
+        "description": "Shopifyの『Dawn』テーマをベースに、ブランドアイデンティティを反映したカスタマイズを実施。Liquidを活用した複数のオリジナルセクションを開発し、クライアント様自身での柔軟なコンテンツ更新を実現したECサイトを構築しました。",
+        "image": "/src/images/projects/project_02.png",
+        "techs": ["HTML", "CSS", "JavaScript", "Shopify"],
+        "link": "https://confit-essence.myshopify.com/",
+        "preview": "サイトを見る"
       },
       {
-        "title": "Apparel Brand EC Site",
-        "description": "Created an EC site for an apparel brand using Shopify. Implemented size variations, inventory management, and Instagram integration. Optimized mobile shopping experience, doubling mobile purchase rate.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Source Code",
-        "preview": "View Site"
+        "title": "&ピラティス様 WordPressサイト",
+        "description": "&ピラティス様のコーディングと一部デザインを担当させていただきました。デザインカンプからのコーディング / WPのオリジナルテーマ化を実装しております。Sassを用いてコーディングし、カスタムフィールド（ACF）・カスタム投稿・MW WP Form等を使用しています",
+        "image": "/src/images/projects/project_03.png",
+        "techs": ["HTML", "CSS", "JavaScript", "WordPress"],
+        "link": "https://andpilates-fit.com/",
+        "preview": "サイトを見る"
       }
     ]
   },
   "contributions": {
-    "title": "Community Activities",
+    "title": "活動",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Samurai Engineer Instructor",
-        "title": "Samurai Engineer Instructor",
-        "description": "Working as a Shopify instructor at 'Samurai Engineer' programming school. Supporting students in career changes and providing practical EC development skills training.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Teaching Materials",
-        "commits": "#"
+        "src": "/src/images/contributions/x.png",
+        "alt": "X Technical Content",
+        "title": "Xでの技術発信",
+        "description": "ShopifyとWeb制作に関する実践的な知見を毎日発信。コーディング効率化、フリーランスのキャリア戦略、EC構築のノウハウなど、1,100人以上のフォロワーに向けて価値ある情報を共有しています。",
+        "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify"],
+        "repo": "https://twitter.com/ryoo_black",
+        "repo_label": "Xを見る"
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Shopify Community",
-        "title": "Shopify Community Activity",
-        "description": "Regularly sharing information and knowledge in the official Shopify community. Particularly focused on sharing insights about customization and performance improvements.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "View Posts",
-        "commits": "#"
+        "src": "/src/images/contributions/daily-trial.png",
+        "alt": "デイトラコミュニティ",
+        "title": "デイトラコミュニティ",
+        "description": "デイトラコミュニティに所属し他の開発者と情報共有を行っています。",
+        "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify"],
+        "repo": "https://daily-trial-community.myshopify.com/",
+        "repo_label": "コミュニティを見る"
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Technical Blog",
-        "title": "Technical Blog Writing",
-        "description": "Running a technical blog about EC development and Shopify customization. Regularly sharing practical development know-how and performance improvement case studies.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "View Blog",
-        "commits": "#"
+        "src": "/src/images/contributions/ryoma-online.png",
+        "alt": "技術ブログ",
+        "title": "技術ブログの執筆",
+        "description": "EC開発やShopifyカスタマイズに関する技術ブログを運営。実践的な開発ノウハウや、パフォーマンス改善事例などを毎日発信しています。",
+        "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify", "Astro"],
+        "repo": "https://www.ryoma.online/",
+        "repo_label": "ブログを見る"
       }
     ]
   },
   "about": {
-    "title": "About Me",
-    "subtitle": "Freelance EC Engineer based in Hokkaido",
-    "description": "Started as an independent contractor in 2022, specializing in EC site development using Shopify and WordPress. Capable of handling everything from frontend development to design and site optimization. Particularly experienced in Shopify with over 50 site builds and customizations, covering various business models including subscription services, membership systems, and cross-border EC. Currently also working as an instructor at Samurai Engineer, contributing to the development of next-generation engineers. Committed to solving client challenges through technology and contributing to business growth."
+    "title": "自己紹介",
+    "subtitle": "フリーランスエンジニア",
+    "description": [
+      "2022年より個人事業主として活動を開始し、ShopifyやWordPressを使用したECサイト構築をメインに活動しています。",
+      "Shopifyでは50件以上の構築・カスタマイズ実績があり、サブスクリプションや会員制、越境ECなど、多様なビジネスモデルに対応してきました。",
+      "現在は侍エンジニアの講師としても活動し、次世代のエンジニア育成にも携わっています。"
+    ]
   },
   "contact": {
-    "title": "Looking forward to discussing your project",
-    "subtitle": "Feel free to contact me about anything from EC site development to site improvements"
+    "title": "プロジェクトのご相談をお待ちしています",
+    "subtitle": "EC構築からサイト改修まで、お気軽にお問い合わせください"
   },
   "footer": {
     "designed": {
-      "designed_with": "Design",
-      "designed_by": "by"
+      "designed_with": "デザイン",
+      "designed_by": "制作"
     },
     "developed": {
-      "developed_with": "Development",
-      "developed_by": "by"
+      "developed_with": "開発",
+      "developed_by": "制作"
     }
   }
 }
