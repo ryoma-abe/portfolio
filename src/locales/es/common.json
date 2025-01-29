@@ -1,139 +1,142 @@
 {
-  "title": "Desarrollador Web Frontend - Felix Rangel",
-  "description": "Desarrollador Web Frontend de Estelí, Nicaragua. Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y WordPress.",
+  "title": "フリーランスECエンジニア - りょう",
+  "description": "北海道を拠点に活動するフリーランスエンジニア。ShopifyやWordPressを使用したECサイト構築を得意としています。",
   "navbar": [
     {
-      "label": "Inicio",
+      "label": "トップ",
       "href": "#top"
     },
     {
-      "label": "Experiencia",
-      "href": "#experiencia-laboral"
+      "label": "経歴",
+      "href": "#career"
     },
     {
-      "label": "Proyectos",
-      "href": "#proyectos"
+      "label": "実績",
+      "href": "#works"
     },
     {
-      "label": "Sobre mí",
-      "href": "#sobre-mi"
+      "label": "自己紹介",
+      "href": "#about"
     }
   ],
   "hero": {
-    "job_availability": "¡Disponible para trabajar!",
-    "title": "¡Hola soy Felix Rangel!",
-    "job_title": "<strong>Desarrollador Web Frontend</strong> de Estelí, Nicaragua.",
-    "description": "Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y WordPress.",
-    "cta": "Contactame"
+    "job_availability": "フリーランスとして活動中",
+    "title": "RyoCode",
+    "job_title": "北海道を拠点に活動する<strong>フリーランスエンジニア</strong>です",
+    "description": "ShopifyやWordPressを使ったECサイト構築を得意としています。コーディングからデザインまで一貫して対応可能です。",
+    "cta": "お問い合わせ"
   },
   "experience": {
-    "title": "Experiencia laboral",
+    "title": "職務経歴",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["フリーランス", "陸上自衛隊"],
       "jobs_description": [
         {
-          "title": "Desarrollador Web Frontend",
-          "time": ["Dic 2021"],
-          "description": "Creo sitios web con diseños modernos y aplicando buenas prácticas de UI/UX. También me encargo de rediseñar, optimizar el posicionamiento SEO, aumentar las medidas de seguridad y optimizar el rendimiento de velocidad de sitios web, para aumentar la taza de conversión y las visitas.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "フリーランスECエンジニア",
+          "time": ["2022年2月〜現在"],
+          "description": "Shopifyを使用したECサイト構築やカスタマイズを中心に活動。UI/UXを重視した最新のデザインと、高いパフォーマンスを両立したサイト制作を行っています。また、既存サイトのリニューアルやSEO対策、表示速度の最適化など、売上向上のための技術支援も提供しています。",
+          "list": [
+            "Shopifyカスタマイズ：30件以上",
+            "新規EC構築：20件以上",
+            "サブスクリプション型ECの構築",
+            "越境EC対応",
+            "侍エンジニア講師として指導"
+          ]
         },
         {
-          "title": "Desarrollador Web en WordPress",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "Me encargué de desarrollar sitios web en WordPress para clientes de Nicaragua, durante mi tiempo en la agencia aporté mi conocimiento en seguridad web aumentando las medidas y disminuyendo las brechas de seguridad en WordPress, configurando plugins y estableciendo cabeceras HTTP como Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "陸上自衛隊",
+          "time": ["2011年4月", "2022年1月"],
+          "description": "11年間にわたり陸上自衛隊に所属。組織での任務遂行を通じて、チームワークやリーダーシップ、危機管理能力を養いました。この経験は現在のプロジェクト管理や顧客とのコミュニケーションに活かされています。",
+          "list": [
+            "チームマネジメント経験",
+            "危機管理・問題解決能力の向上",
+            "組織内コミュニケーション"
+          ]
         }
       ]
     }
   },
   "projects": {
-    "title": "Proyectos",
+    "title": "制作実績",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
+        "title": "高級時計専門店 ECサイト",
+        "description": "Shopifyを使用した高級時計専門店のECサイト構築。会員制システムの実装や、越境EC対応、在庫連携など、複雑な要件にも対応。サイトスピードの最適化により、コンバージョン率が1.5倍に改善。",
         "image": "/src/images/projects/esteli-buses-project.jpg",
         "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Código",
-        "preview": "Vista previa"
+        "code": "ソースコード",
+        "preview": "サイトを見る"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "Código",
-        "preview": "Vista previa"
+        "title": "オーガニック食品 サブスクECサイト",
+        "description": "WordPressとWooCommerceを使用した定期購入型ECサイト。商品の定期配送システムを実装し、顧客管理機能やポイント制度も導入。月間売上150%増を達成。",
+        "image": "/src/images/projects/esteli-buses-project.jpg",
+        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "code": "ソースコード",
+        "preview": "サイトを見る"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
-        "code": "Código",
-        "preview": "Vista previa"
+        "title": "アパレルブランド ECサイト",
+        "description": "Shopifyを使用したアパレルブランドのECサイト。サイズ展開や在庫管理、Instagram連携など、アパレル特有の機能を実装。スマートフォンでの購入体験を最適化し、モバイルでの購入率が2倍に向上。",
+        "image": "/src/images/projects/esteli-buses-project.jpg",
+        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "code": "ソースコード",
+        "preview": "サイトを見る"
       }
     ]
   },
   "contributions": {
-    "title": "Contribuciones",
+    "title": "コミュニティ活動",
     "contributions": [
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
+        "alt": "侍エンジニア講師",
+        "title": "侍エンジニア講師",
+        "description": "プログラミングスクール「侍エンジニア」でShopify講師として活動。受講生のキャリアチェンジをサポートし、実践的なEC開発スキルの指導を行っています。",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
-        "repo_label": "Repositorio",
+        "repo_label": "教材資料",
         "commits": "#"
       },
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
+        "alt": "Shopifyコミュニティ",
+        "title": "Shopifyコミュニティ活動",
+        "description": "Shopify公式コミュニティで定期的に情報発信を行い、他の開発者とナレッジ共有を行っています。特にカスタマイズやパフォーマンス改善に関する知見を共有しています。",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
-        "repo_label": "Repositorio",
+        "repo_label": "投稿一覧",
         "commits": "#"
       },
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
+        "alt": "技術ブログ",
+        "title": "技術ブログの執筆",
+        "description": "EC開発やShopifyカスタマイズに関する技術ブログを運営。実践的な開発ノウハウや、パフォーマンス改善事例などを定期的に発信しています。",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
-        "repo_label": "Repositorio",
+        "repo_label": "ブログを見る",
         "commits": "#"
       }
     ]
   },
   "about": {
-    "title": "Sobre mí",
-    "subtitle": "Soy mod de Midudev y ManzDev pero más feliz me siento siendo mod de AnaRangel",
-    "description": "Soy un Desarrollador Web Frontend y WordPress con más de 3 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript ES6+ y WordPress. Manejo frameworks como React y Astro, y soy experto en constructores visuales de WordPress, además de tener un fuerte conocimiento técnico en Core Web Vitals, lo que me convierte en un profesional apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
+    "title": "自己紹介",
+    "subtitle": "北海道を拠点に活動するフリーランスECエンジニア",
+    "description": "2022年より個人事業主として活動を開始し、ShopifyやWordPressを使用したECサイト構築に特化しています。フロントエンド開発からデザイン、サイト最適化まで一貫して対応が可能です。特にShopifyでは50件以上の構築・カスタマイズ実績があり、サブスクリプションや会員制、越境ECなど、多様なビジネスモデルに対応してきました。現在は侍エンジニアの講師としても活動し、次世代のエンジニア育成にも携わっています。顧客の課題を技術で解決し、事業の成長に貢献することを心がけています。"
   },
   "contact": {
-    "title": "¿Listo para dar vida a tus ideas?",
-    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo"
+    "title": "プロジェクトのご相談をお待ちしています",
+    "subtitle": "EC構築からサイト改修まで、お気軽にお問い合わせください"
   },
   "footer": {
     "designed": {
-      "designed_with": "Diseñado con",
-      "designed_by": "por"
+      "designed_with": "デザイン",
+      "designed_by": "制作"
     },
     "developed": {
-      "developed_with": "Hecho con",
-      "developed_by": "por"
+      "developed_with": "開発",
+      "developed_by": "制作"
     }
   }
 }
