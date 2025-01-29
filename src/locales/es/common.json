@@ -86,44 +86,45 @@
     ]
   },
   "contributions": {
-    "title": "コミュニティ活動",
+    "title": "活動",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "侍エンジニア講師",
-        "title": "侍エンジニア講師",
-        "description": "プログラミングスクール「侍エンジニア」でShopify講師として活動。受講生のキャリアチェンジをサポートし、実践的なEC開発スキルの指導を行っています。",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "教材資料",
-        "commits": "#"
+        "src": "/src/images/contributions/x.png",
+        "alt": "X Technical Content",
+        "title": "Xでの技術発信",
+        "description": "ShopifyとWeb制作に関する実践的な知見を毎日発信。コーディング効率化、フリーランスのキャリア戦略、EC構築のノウハウなど、1,100人以上のフォロワーに向けて価値ある情報を共有しています。",
+        "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify"],
+        "repo": "https://twitter.com/ryoo_black",
+        "repo_label": "Xを見る"
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Shopifyコミュニティ",
-        "title": "Shopifyコミュニティ活動",
-        "description": "Shopify公式コミュニティで定期的に情報発信を行い、他の開発者とナレッジ共有を行っています。特にカスタマイズやパフォーマンス改善に関する知見を共有しています。",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "投稿一覧",
-        "commits": "#"
+        "src": "/src/images/contributions/daily-trial.png",
+        "alt": "デイトラコミュニティ",
+        "title": "デイトラコミュニティ",
+        "description": "デイトラコミュニティに所属し他の開発者と情報共有を行っています。",
+        "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify"],
+        "repo": "https://daily-trial-community.myshopify.com/",
+        "repo_label": "コミュニティを見る"
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "src": "/src/images/contributions/ryoma-online.png",
         "alt": "技術ブログ",
         "title": "技術ブログの執筆",
-        "description": "EC開発やShopifyカスタマイズに関する技術ブログを運営。実践的な開発ノウハウや、パフォーマンス改善事例などを定期的に発信しています。",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "ブログを見る",
-        "commits": "#"
+        "description": "EC開発やShopifyカスタマイズに関する技術ブログを運営。実践的な開発ノウハウや、パフォーマンス改善事例などを毎日発信しています。",
+        "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify", "Astro"],
+        "repo": "https://www.ryoma.online/",
+        "repo_label": "ブログを見る"
       }
     ]
   },
   "about": {
     "title": "自己紹介",
-    "subtitle": "北海道を拠点に活動するフリーランスECエンジニア",
-    "description": "2022年より個人事業主として活動を開始し、ShopifyやWordPressを使用したECサイト構築に特化しています。フロントエンド開発からデザイン、サイト最適化まで一貫して対応が可能です。特にShopifyでは50件以上の構築・カスタマイズ実績があり、サブスクリプションや会員制、越境ECなど、多様なビジネスモデルに対応してきました。現在は侍エンジニアの講師としても活動し、次世代のエンジニア育成にも携わっています。顧客の課題を技術で解決し、事業の成長に貢献することを心がけています。"
+    "subtitle": "フリーランスエンジニア",
+    "description": [
+      "2022年より個人事業主として活動を開始し、ShopifyやWordPressを使用したECサイト構築をメインに活動しています。",
+      "Shopifyでは50件以上の構築・カスタマイズ実績があり、サブスクリプションや会員制、越境ECなど、多様なビジネスモデルに対応してきました。",
+      "現在は侍エンジニアの講師としても活動し、次世代のエンジニア育成にも携わっています。"
+    ]
   },
   "contact": {
     "title": "プロジェクトのご相談をお待ちしています",

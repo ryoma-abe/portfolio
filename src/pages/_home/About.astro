@@ -6,12 +6,14 @@ import { t } from 'i18n:astro'
 const { title, subtitle, description } = t('about', {
   returnObjects: true
 })
-
 const normalizeTitle = title
   .toLowerCase()
   .replaceAll(' ', '-')
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g, '')
+
+// descriptionが文字列の場合は配列に変換し、配列の場合はそのまま使用
+const paragraphs = Array.isArray(description) ? description : [description]
 ---
 
 <section id={normalizeTitle} class="about">
@@ -29,25 +31,21 @@ const normalizeTitle = title
     </div>
     <div class="description">
       <h3 class="headline-2">{subtitle}</h3>
-      <p>{description}</p>
+      {paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
     </div>
   </section>
 </section>
-
 <style>
   .about {
     padding-bottom: 120px;
-
     & h2 {
       display: flex;
       gap: 24px;
       align-items: center;
       justify-content: center;
       white-space: nowrap;
-
       @media (width >= 768px) {
         justify-content: start;
-
         &::after {
           content: '';
           display: block;
@@ -66,27 +64,22 @@ const normalizeTitle = title
       align-items: center;
       gap: 32px;
       margin-top: 48px;
-
       @media (width >= 768px) {
         padding: 48px;
         max-width: 470px;
         margin-inline: auto;
       }
-
       @media (width >= 1200px) {
         flex-direction: row;
         max-width: fit-content;
       }
-
       & .picture {
         img {
           border-radius: 4px;
         }
       }
-
       & .description {
         flex: 1;
-
         & p {
           margin-top: 24px;
           color: var(--text-description-color);
