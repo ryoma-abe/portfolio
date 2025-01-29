@@ -1,7 +1,7 @@
 ---
 import { t } from 'i18n:astro'
 
-const { title, jobs } = t('experience', {
+const { title, jobs, actual } = t('experience', {
   returnObjects: true
 })
 
@@ -47,7 +47,7 @@ const normalizeTitle = title
                   {index % 2 === 0 && <span>—</span>}
                 </>
               ))}
-              {time.length <= 1 && <span class="badge">Actual</span>}
+              {time.length <= 1 && <span class="badge">{actual}</span>}
             </div>
             <p>{description}</p>
             <ul>

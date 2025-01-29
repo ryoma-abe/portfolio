@@ -56,7 +56,7 @@ html {
     transition: var(--transition-bg);
   }
   .gsap {
-    background-color: #88ce02;
+    background-color: #4a5a3d;
     transition: var(--transition-bg);
   }
 }
@@ -102,6 +102,6 @@ html.dark {
     background-color: #7ab55c;
   }
   .gsap {
-    background-color: #a3e635;
+    background-color: #d4e4bc;
   }
 }
