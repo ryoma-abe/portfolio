@@ -60,11 +60,11 @@
     "title": "制作実績",
     "projects": [
       {
-        "title": "高級時計専門店 ECサイト",
-        "description": "Shopifyを使用した高級時計専門店のECサイト構築。会員制システムの実装や、越境EC対応、在庫連携など、複雑な要件にも対応。サイトスピードの最適化により、コンバージョン率が1.5倍に改善。",
+        "title": "ポリカーボネートオーダーメイドECサイト",
+        "description": "Shopifyを使用したポリカーボネートオーダーメイドECサイト構築を担当いたしました。オーダーメイドシステムの実装や計算ロジックにより、ユーザーが簡単に希望通りの商品を購入できるようにしました。",
         "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "ソースコード",
+        "techs": ["HTML", "CSS", "JavaScript", "Shopify"],
+        "link": "https://polyca.shop/",
         "preview": "サイトを見る"
       },
       {
