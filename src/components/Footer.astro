@@ -5,9 +5,6 @@ const { designed, developed } = t('footer', {
   returnObjects: true
 })
 
-const { designed_with: designedWith, designed_by: designedBy } = designed
-const { developed_with: developedWith, developed_by: developedBy } = developed
-
 const year = new Date().getFullYear()
 ---
 
@@ -15,38 +12,11 @@ const year = new Date().getFullYear()
   <p>
     <span>
       © <span id="year">{year}</span>
-      {designedWith}
-      <video
-        width="24"
-        src="/media/unicorn.webm"
-        preload="metadata"
-        playsinline
-        autoplay
-        muted
-        loop></video>
-      {designedBy}
       <a
-        href="https://www.linkedin.com/in/ux-ana-rangel"
+        href="https://github.com/ryoma-abe"
         target="_blank"
-        rel="noopener noreferrer">UX Ana Rangel</a
+        rel="noopener noreferrer">RyoCode</a
       >
-    </span>
-    <span>
-      {developedWith}
-      <video
-        width="24"
-        src="/media/heart.webm"
-        preload="metadata"
-        playsinline
-        autoplay
-        muted
-        loop></video>
-      {developedBy}
-      <a
-        href="https://felixicaza.com/"
-        target="_blank"
-        rel="noopener noreferrer">Felix Icaza</a
-      >.
     </span>
   </p>
 </footer>
@@ -65,14 +35,6 @@ const year = new Date().getFullYear()
       display: inline-block;
       margin-inline: 4px;
     }
-
-    & P > span:first-child::after {
-      content: '|';
-      display: inline-block;
-      translate: 0 -1px;
-      margin-right: 4px;
-    }
-
     & a {
       color: var(--text-color);
       text-decoration: none;
