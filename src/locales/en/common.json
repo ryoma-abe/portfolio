@@ -1,138 +1,141 @@
 {
-  "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "title": "Freelance EC Engineer - Ryo",
+  "description": "Freelance engineer based in Hokkaido, specializing in EC site development using Shopify and WordPress.",
   "navbar": [
     {
-      "label": "Home",
+      "label": "Top",
       "href": "#top"
     },
     {
-      "label": "Experience",
-      "href": "/en/#work-experience"
+      "label": "Career",
+      "href": "#career"
     },
     {
-      "label": "Projects",
-      "href": "/en/#projects"
+      "label": "Works",
+      "href": "#works"
     },
     {
-      "label": "About me",
-      "href": "/en/#about-me"
+      "label": "About",
+      "href": "#about"
     }
   ],
   "hero": {
-    "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
-    "cta": "Contact me"
+    "job_availability": "Available as Freelancer",
+    "title": "RyoCode",
+    "job_title": "<strong>Freelance Engineer</strong> based in Hokkaido, Japan",
+    "description": "Specializing in EC site development using Shopify and WordPress. Offering comprehensive services from coding to design.",
+    "cta": "Contact Me"
   },
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["Freelance", "Japan Ground Self-Defense Force"],
       "jobs_description": [
         {
-          "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
-          "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Freelance EC Engineer",
+          "time": ["Feb 2022 - Present"],
+          "description": "Focusing on EC site development and customization using Shopify. Creating sites that combine modern UI/UX design with high performance. Also providing technical support for sales growth through site renewals, SEO optimization, and performance improvements.",
+          "list": [
+            "30+ Shopify customization projects",
+            "20+ New EC site developments",
+            "Subscription-based EC implementation",
+            "Cross-border EC solutions",
+            "Instructor at Samurai Engineer"
+          ]
         },
         {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Japan Ground Self-Defense Force",
+          "time": ["April 2011", "January 2022"],
+          "description": "Served in the Japan Ground Self-Defense Force for 11 years, developing teamwork, leadership, and crisis management skills. These experiences now enhance project management and client communication abilities.",
+          "list": [
+            "Team management experience",
+            "Crisis management & problem-solving skills",
+            "Organizational communication"
+          ]
         }
       ]
     }
   },
   "projects": {
-    "title": "Projects",
+    "title": "Portfolio",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
+        "title": "Luxury Watch Store EC Site",
+        "description": "Built an EC site for a luxury watch store using Shopify. Implemented membership system, cross-border EC functionality, and inventory synchronization. Improved conversion rate by 1.5x through site speed optimization.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
         "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Code",
-        "preview": "Preview"
+        "code": "Source Code",
+        "preview": "View Site"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "Code",
-        "preview": "Preview"
+        "title": "Organic Food Subscription EC Site",
+        "description": "Developed a subscription-based EC site using WordPress and WooCommerce. Implemented regular delivery system, customer management, and point system. Achieved 150% increase in monthly sales.",
+        "image": "/src/images/projects/esteli-buses-project.jpg",
+        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "code": "Source Code",
+        "preview": "View Site"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
-        "code": "Code",
-        "preview": "Preview"
+        "title": "Apparel Brand EC Site",
+        "description": "Created an EC site for an apparel brand using Shopify. Implemented size variations, inventory management, and Instagram integration. Optimized mobile shopping experience, doubling mobile purchase rate.",
+        "image": "/src/images/projects/esteli-buses-project.jpg",
+        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "code": "Source Code",
+        "preview": "View Site"
       }
     ]
   },
   "contributions": {
-    "title": "Contributions",
+    "title": "Community Activities",
     "contributions": [
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
+        "alt": "Samurai Engineer Instructor",
+        "title": "Samurai Engineer Instructor",
+        "description": "Working as a Shopify instructor at 'Samurai Engineer' programming school. Supporting students in career changes and providing practical EC development skills training.",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
-        "repo_label": "Repository",
+        "repo_label": "Teaching Materials",
         "commits": "#"
       },
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
+        "alt": "Shopify Community",
+        "title": "Shopify Community Activity",
+        "description": "Regularly sharing information and knowledge in the official Shopify community. Particularly focused on sharing insights about customization and performance improvements.",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
-        "repo_label": "Repository",
+        "repo_label": "View Posts",
         "commits": "#"
       },
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
+        "alt": "Technical Blog",
+        "title": "Technical Blog Writing",
+        "description": "Running a technical blog about EC development and Shopify customization. Regularly sharing practical development know-how and performance improvement case studies.",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
-        "repo_label": "Repository",
+        "repo_label": "View Blog",
         "commits": "#"
       }
     ]
   },
   "about": {
-    "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "title": "About Me",
+    "subtitle": "Freelance EC Engineer based in Hokkaido",
+    "description": "Started as an independent contractor in 2022, specializing in EC site development using Shopify and WordPress. Capable of handling everything from frontend development to design and site optimization. Particularly experienced in Shopify with over 50 site builds and customizations, covering various business models including subscription services, membership systems, and cross-border EC. Currently also working as an instructor at Samurai Engineer, contributing to the development of next-generation engineers. Committed to solving client challenges through technology and contributing to business growth."
   },
   "contact": {
-    "title": "Ready to make your dreams come true?",
-    "subtitle": "I can boost your project or be part of your team"
+    "title": "Looking forward to discussing your project",
+    "subtitle": "Feel free to contact me about anything from EC site development to site improvements"
   },
   "footer": {
     "designed": {
-      "designed_with": "Designed with",
+      "designed_with": "Design",
       "designed_by": "by"
     },
     "developed": {
-      "developed_with": "Made with",
+      "developed_with": "Development",
       "developed_by": "by"
     }
   }
