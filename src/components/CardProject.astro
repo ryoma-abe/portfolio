@@ -38,7 +38,7 @@ if (!images[src])
     </a>
   </div>
   <div class="description">
-    <h3><a href={link}>{title}</a></h3>
+    <h3><a href={link} target="_blank">{title}</a></h3>
     <div class="badges">
       {
         techs.map((tech) => {
@@ -54,11 +54,7 @@ if (!images[src])
     </div>
     <p>{description}</p>
     <div class="links">
-      <a href={link}>
-        <Icon name="github" size={24} />
-        {code}
-      </a>
-      <a href={preview}>
+      <a href={link} target="_blank">
         <Icon name="link" size={24} />
         {preview}
       </a>

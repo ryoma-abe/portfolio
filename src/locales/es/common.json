@@ -62,25 +62,25 @@
       {
         "title": "ポリカーボネートオーダーメイドECサイト",
         "description": "Shopifyを使用したポリカーボネートオーダーメイドECサイト構築を担当いたしました。オーダーメイドシステムの実装や計算ロジックにより、ユーザーが簡単に希望通りの商品を購入できるようにしました。",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
+        "image": "/src/images/projects/project_01.png",
         "techs": ["HTML", "CSS", "JavaScript", "Shopify"],
         "link": "https://polyca.shop/",
         "preview": "サイトを見る"
       },
       {
-        "title": "オーガニック食品 サブスクECサイト",
-        "description": "WordPressとWooCommerceを使用した定期購入型ECサイト。商品の定期配送システムを実装し、顧客管理機能やポイント制度も導入。月間売上150%増を達成。",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "ソースコード",
+        "title": ".CELLESSENCE様 ECサイト",
+        "description": "Shopifyの『Dawn』テーマをベースに、ブランドアイデンティティを反映したカスタマイズを実施。Liquidを活用した複数のオリジナルセクションを開発し、クライアント様自身での柔軟なコンテンツ更新を実現したECサイトを構築しました。",
+        "image": "/src/images/projects/project_02.png",
+        "techs": ["HTML", "CSS", "JavaScript", "Shopify"],
+        "link": "https://confit-essence.myshopify.com/",
         "preview": "サイトを見る"
       },
       {
-        "title": "アパレルブランド ECサイト",
-        "description": "Shopifyを使用したアパレルブランドのECサイト。サイズ展開や在庫管理、Instagram連携など、アパレル特有の機能を実装。スマートフォンでの購入体験を最適化し、モバイルでの購入率が2倍に向上。",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "ソースコード",
+        "title": "&ピラティス様 WordPressサイト",
+        "description": "&ピラティス様のコーディングと一部デザインを担当させていただきました。デザインカンプからのコーディング / WPのオリジナルテーマ化を実装しております。SassとGSAP用いてコーディングし、カスタムフィールド（ACF）・カスタム投稿・MW WP Form等を使用しています。",
+        "image": "/src/images/projects/project_03.png",
+        "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Sass", "GSAP"],
+        "link": "https://andpilates-fit.com/",
         "preview": "サイトを見る"
       }
     ]
