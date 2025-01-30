@@ -11,7 +11,10 @@ import 'sanitize.css'
 import 'sanitize.css/assets.css'
 import 'sanitize.css/typography.css'
 import '@styles/global.css'
+import NavbarPage from '../components/NavbarPage.astro'
 
+const { pathname } = Astro.url
+const isTopPage = pathname === '/'
 interface Options {
   title: string
   description: string
@@ -161,7 +164,7 @@ const { title, description, metaRobots } = options
     <slot name="social-media" />
   </head>
   <body>
-    <Navbar />
+    {isTopPage ? <Navbar /> : <NavbarPage />}
 
     <slot />
 

@@ -3,44 +3,54 @@ import { t } from 'i18n:astro'
 import CardProject from '@components/CardProject.astro'
 import Layout from '../layouts/Layout.astro'
 
-const { title, projects } = t('projects', {
+const { projects } = t('projects', {
   returnObjects: true
 })
 
 const options = {
-  title: 'Projects',
-  description: 'Projects page' // 必要に応じて適切な説明を設定してください
+  title: '制作実績一覧です',
+  description: '制作実績一覧です' // 必要に応じて適切な説明を設定してください
 }
 ---
 
-<Layout options={options}>
-  <div class="projects-list">
-    <h1>{title}</h1>
-    {
-      projects.map(
-        ({ title, description, image, techs, code, preview, link }) => (
-          <CardProject
-            src={image}
-            alt={title}
-            title={title}
-            description={description}
-            techs={techs}
-            code={code}
-            preview={preview}
-            link={link}
-          />
+<main>
+  <Layout options={options}>
+    <div class="projects-list">
+      {
+        projects.map(
+          ({ title, description, image, techs, code, preview, link }) => (
+            <CardProject
+              src={image}
+              alt={title}
+              title={title}
+              description={description}
+              techs={techs}
+              code={code}
+              preview={preview}
+              link={link}
+            />
+          )
         )
-      )
-    }
-  </div>
-</Layout>
-
+      }
+    </div>
+  </Layout>
+</main>
 <style>
-  .projects-list {
-    padding: 120px 0;
+  main {
+    max-width: 1054px;
+    margin-inline: auto;
+    padding-inline: var(--mobile-inline-padding);
+
+    @media (width >= 1200px) {
+      padding-inline: 0;
+    }
   }
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 86px;
+  .projects-list {
+    padding-block: 113px;
+  }
+  @media (width >= 768px) {
+    .projects-list {
+      padding-block: 129px;
+    }
   }
 </style>
