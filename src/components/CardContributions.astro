@@ -15,8 +15,7 @@ interface Props {
   commits: string
 }
 
-const { src, alt, title, description, techs, repo, repoLabel, commits } =
-  Astro.props
+const { src, alt, title, description, techs, repo, repoLabel } = Astro.props
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   '/src/images/contributions/*.{jpeg,jpg,png}'

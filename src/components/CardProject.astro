@@ -14,7 +14,7 @@ interface Props {
   preview: string
   link: string
 }
-const { src, alt, title, description, techs, code, preview, link } = Astro.props
+const { src, alt, title, description, techs, preview, link } = Astro.props
 const images = import.meta.glob<{ default: ImageMetadata }>(
   '/src/images/projects/*.{jpeg,jpg,png}'
 )

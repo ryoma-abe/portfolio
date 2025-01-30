@@ -7,7 +7,7 @@ const { title, projects } = t('projects', {
 })
 ---
 
-<section id={title.toLowerCase()} class="projects">
+<section id="works" class="projects">
   <h2>
     <span>{title}</span>
   </h2>
@@ -27,6 +27,9 @@ const { title, projects } = t('projects', {
       )
     )
   }
+  <div class="view-more">
+    <a href="/projects" class="view-more-button">もっと見る</a>
+  </div>
 </section>
 
 <style>
@@ -57,5 +60,16 @@ const { title, projects } = t('projects', {
         order: 1;
       }
     }
+  }
+
+  .view-more {
+    margin-top: 48px;
+    text-align: center;
+  }
+
+  .view-more-button {
+    padding: 12px 24px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
   }
 </style>

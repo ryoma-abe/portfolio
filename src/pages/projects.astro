@@ -1,0 +1,46 @@
+---
+import { t } from 'i18n:astro'
+import CardProject from '@components/CardProject.astro'
+import Layout from '../layouts/Layout.astro'
+
+const { title, projects } = t('projects', {
+  returnObjects: true
+})
+
+const options = {
+  title: 'Projects',
+  description: 'Projects page' // 必要に応じて適切な説明を設定してください
+}
+---
+
+<Layout options={options}>
+  <div class="projects-list">
+    <h1>{title}</h1>
+    {
+      projects.map(
+        ({ title, description, image, techs, code, preview, link }) => (
+          <CardProject
+            src={image}
+            alt={title}
+            title={title}
+            description={description}
+            techs={techs}
+            code={code}
+            preview={preview}
+            link={link}
+          />
+        )
+      )
+    }
+  </div>
+</Layout>
+
+<style>
+  .projects-list {
+    padding: 120px 0;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 86px;
+  }
+</style>
