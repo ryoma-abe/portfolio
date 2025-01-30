@@ -19,6 +19,12 @@
       "href": "#about"
     }
   ],
+  "navbarPage": [
+    {
+      "label": "トップへ戻る",
+      "href": "/"
+    }
+  ],
   "hero": {
     "job_availability": "フリーランスとして活動中",
     "title": "RyoCode",

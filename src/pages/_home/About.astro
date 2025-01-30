@@ -6,17 +6,12 @@ import { t } from 'i18n:astro'
 const { title, subtitle, description } = t('about', {
   returnObjects: true
 })
-const normalizeTitle = title
-  .toLowerCase()
-  .replaceAll(' ', '-')
-  .normalize('NFD')
-  .replace(/[\u0300-\u036f]/g, '')
 
 // descriptionが文字列の場合は配列に変換し、配列の場合はそのまま使用
 const paragraphs = Array.isArray(description) ? description : [description]
 ---
 
-<section id={normalizeTitle} class="about">
+<section id="about" class="about">
   <h2>{title}</h2>
   <section class="info">
     <div class="picture">
@@ -31,7 +26,7 @@ const paragraphs = Array.isArray(description) ? description : [description]
     </div>
     <div class="description">
       <h3 class="headline-2">{subtitle}</h3>
-      {paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+      {paragraphs.map((paragraph) => <p set:html={paragraph} />)}
     </div>
   </section>
 </section>

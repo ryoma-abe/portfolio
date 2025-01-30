@@ -2,9 +2,21 @@
 import { t } from 'i18n:astro'
 import CardProject from '@components/CardProject.astro'
 
+interface Project {
+  title: string
+  description: string
+  image: string // imageプロパティの型定義
+  techs: string[]
+  preview: string
+  link: string
+}
+
 const { title, projects } = t('projects', {
   returnObjects: true
-})
+}) as {
+  title: string
+  projects: Project[]
+}
 ---
 
 <section id="works" class="projects">
@@ -12,30 +24,23 @@ const { title, projects } = t('projects', {
     <span>{title}</span>
   </h2>
   {
-    projects.map(
-      ({ title, description, image, techs, code, preview, link }) => (
-        <CardProject
-          src={image}
-          alt={title}
-          title={title}
-          description={description}
-          techs={techs}
-          code={code}
-          preview={preview}
-          link={link}
-        />
-      )
-    )
+    projects.map((project) => (
+      <CardProject
+        src={project.image}
+        alt={project.title}
+        title={project.title}
+        description={project.description}
+        techs={project.techs}
+        preview={project.preview}
+        link={project.link}
+      />
+    ))
   }
-  <div class="view-more">
-    <a href="/projects" class="view-more-button">もっと見る</a>
-  </div>
 </section>
 
 <style>
   .projects {
     padding-bottom: 120px;
-
     & h2 {
       display: flex;
       gap: 24px;
@@ -43,10 +48,8 @@ const { title, projects } = t('projects', {
       align-items: center;
       white-space: nowrap;
       margin-bottom: 86px;
-
       @media (width >= 768px) {
         justify-content: start;
-
         &::after {
           content: '';
           display: block;
@@ -55,18 +58,15 @@ const { title, projects } = t('projects', {
           background-color: var(--border-color);
         }
       }
-
       & span {
         order: 1;
       }
     }
   }
-
   .view-more {
     margin-top: 48px;
     text-align: center;
   }
-
   .view-more-button {
     padding: 12px 24px;
     border: 1px solid var(--border-color);

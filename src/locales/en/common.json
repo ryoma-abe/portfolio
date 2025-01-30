@@ -1,143 +1,150 @@
 {
-  "title": "フリーランスECエンジニア - りょう",
-  "description": "北海道を拠点に活動するフリーランスエンジニア。ShopifyやWordPressを使用したECサイト構築を得意としています。",
+  "title": "Freelance EC Engineer - Ryo",
+  "description": "A freelance engineer based in Hokkaido, specializing in EC site development using Shopify and WordPress.",
   "navbar": [
     {
-      "label": "トップ",
+      "label": "Top",
       "href": "#top"
     },
     {
-      "label": "経歴",
+      "label": "Career",
       "href": "#career"
     },
     {
-      "label": "実績",
+      "label": "Works",
       "href": "#works"
     },
     {
-      "label": "自己紹介",
+      "label": "About",
       "href": "#about"
     }
   ],
+  "navbarPage": [
+    {
+      "label": "Back to Top",
+      "href": "/"
+    }
+  ],
   "hero": {
-    "job_availability": "フリーランスとして活動中",
+    "job_availability": "Available for Freelance Work",
     "title": "RyoCode",
-    "job_title": "北海道を拠点に活動する<strong>フリーランスエンジニア</strong>です",
-    "description": "ShopifyやWordPressを使ったECサイト構築を得意としています。コーディングからデザインまで一貫して対応可能です。",
-    "cta": "お問い合わせ"
+    "job_title": "A <strong>Freelance Engineer</strong> based in Hokkaido",
+    "description": "Specializing in development with Shopify and WordPress.",
+    "cta": "Contact Me"
   },
   "experience": {
-    "title": "職務経歴",
+    "title": "Work Experience",
+    "actual": "Current Position",
     "jobs": {
-      "jobs_title": ["フリーランス", "陸上自衛隊"],
+      "jobs_title": ["Freelance", "Japan Ground Self-Defense Force"],
       "jobs_description": [
         {
-          "title": "フリーランスECエンジニア",
-          "time": ["2022年2月〜現在"],
-          "description": "Shopifyを使用したECサイト構築やカスタマイズを中心に活動。UI/UXを重視した最新のデザインと、高いパフォーマンスを両立したサイト制作を行っています。また、既存サイトのリニューアルやSEO対策、表示速度の最適化など、売上向上のための技術支援も提供しています。",
+          "title": "Freelance Engineer",
+          "time": ["September 2022 - Present"],
+          "description": "Focusing on EC site development and customization using Shopify. Creating high-performance websites with attention to detail. Providing technical support for business growth through website renewals, SEO optimization, and speed optimization of existing sites.",
           "list": [
-            "Shopifyカスタマイズ：30件以上",
-            "新規EC構築：20件以上",
-            "サブスクリプション型ECの構築",
-            "越境EC対応",
-            "侍エンジニア講師として指導"
+            "Shopify Development & Customization: 50+ projects",
+            "WordPress Development: 20+ projects",
+            "Online Membership Platform Development",
+            "Cross-border EC Implementation",
+            "Samurai Engineer Instructor"
           ]
         },
         {
-          "title": "陸上自衛隊",
-          "time": ["2011年4月", "2022年1月"],
-          "description": "11年間にわたり陸上自衛隊に所属。組織での任務遂行を通じて、チームワークやリーダーシップ、危機管理能力を養いました。この経験は現在のプロジェクト管理や顧客とのコミュニケーションに活かされています。",
+          "title": "Japan Ground Self-Defense Force",
+          "time": ["2011", "September 2022"],
+          "description": "Served in the Japan Ground Self-Defense Force for 11 years. Developed teamwork, leadership, and crisis management skills through organizational missions. These experiences now contribute to project management and client communication.",
           "list": [
-            "チームマネジメント経験",
-            "危機管理・問題解決能力の向上",
-            "組織内コミュニケーション"
+            "Combat Training Instructor",
+            "Promotion Candidate Education",
+            "Team Management"
           ]
         }
       ]
     }
   },
   "projects": {
-    "title": "制作実績",
+    "title": "Portfolio",
     "projects": [
       {
-        "title": "ポリカーボネートオーダーメイドECサイト",
-        "description": "Shopifyを使用したポリカーボネートオーダーメイドECサイト構築を担当いたしました。オーダーメイドシステムの実装や計算ロジックにより、ユーザーが簡単に希望通りの商品を購入できるようにしました。",
+        "title": "Polycarbonate Custom Order EC Site",
+        "description": "Developed an EC site for custom polycarbonate products using Shopify. Implemented a custom order system with calculation logic to enable users to easily purchase products according to their specifications.",
         "image": "/src/images/projects/project_01.png",
         "techs": ["HTML", "CSS", "JavaScript", "Shopify"],
         "link": "https://polyca.shop/",
-        "preview": "サイトを見る"
+        "preview": "View Site"
       },
       {
-        "title": ".CELLESSENCE様 ECサイト",
-        "description": "Shopifyの『Dawn』テーマをベースに、ブランドアイデンティティを反映したカスタマイズを実施。Liquidを活用した複数のオリジナルセクションを開発し、クライアント様自身での柔軟なコンテンツ更新を実現したECサイトを構築しました。",
+        "title": ".CELLESSENCE EC Site",
+        "description": "Customized Shopify's 'Dawn' theme to reflect brand identity. Developed multiple original sections using Liquid, enabling flexible content updates by the client themselves.",
         "image": "/src/images/projects/project_02.png",
         "techs": ["HTML", "CSS", "JavaScript", "Shopify"],
         "link": "https://confit-essence.myshopify.com/",
-        "preview": "サイトを見る"
+        "preview": "View Site"
       },
       {
-        "title": "&ピラティス様 WordPressサイト",
-        "description": "&ピラティス様のコーディングと一部デザインを担当させていただきました。デザインカンプからのコーディング / WPのオリジナルテーマ化を実装しております。Sassを用いてコーディングし、カスタムフィールド（ACF）・カスタム投稿・MW WP Form等を使用しています",
+        "title": "&Pilates WordPress Site",
+        "description": "Handled coding and partial design for &Pilates. Implemented coding from design comp and created custom WordPress theme. Used Sass and GSAP for coding, incorporating custom fields (ACF), custom posts, and MW WP Form.",
         "image": "/src/images/projects/project_03.png",
-        "techs": ["HTML", "CSS", "JavaScript", "WordPress"],
+        "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Sass", "GSAP"],
         "link": "https://andpilates-fit.com/",
-        "preview": "サイトを見る"
+        "preview": "View Site"
       }
     ]
   },
   "contributions": {
-    "title": "活動",
+    "title": "Activities",
     "contributions": [
       {
         "src": "/src/images/contributions/x.png",
         "alt": "X Technical Content",
-        "title": "Xでの技術発信",
-        "description": "ShopifyとWeb制作に関する実践的な知見を毎日発信。コーディング効率化、フリーランスのキャリア戦略、EC構築のノウハウなど、1,100人以上のフォロワーに向けて価値ある情報を共有しています。",
+        "title": "Technical Content on X",
+        "description": "Daily sharing of practical insights about Shopify and web development. Sharing valuable information about coding efficiency, freelance career strategies, and EC development know-how with over 1,100 followers.",
         "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify"],
         "repo": "https://twitter.com/ryoo_black",
-        "repo_label": "Xを見る"
+        "repo_label": "View X Profile"
       },
       {
         "src": "/src/images/contributions/daily-trial.png",
-        "alt": "デイトラコミュニティ",
-        "title": "デイトラコミュニティ",
-        "description": "デイトラコミュニティに所属し他の開発者と情報共有を行っています。",
+        "alt": "Daily Trial Community",
+        "title": "Daily Trial Community",
+        "description": "Active member of the Daily Trial community, sharing knowledge with other developers.",
         "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify"],
         "repo": "https://daily-trial-community.myshopify.com/",
-        "repo_label": "コミュニティを見る"
+        "repo_label": "View Community"
       },
       {
         "src": "/src/images/contributions/ryoma-online.png",
-        "alt": "技術ブログ",
-        "title": "技術ブログの執筆",
-        "description": "EC開発やShopifyカスタマイズに関する技術ブログを運営。実践的な開発ノウハウや、パフォーマンス改善事例などを毎日発信しています。",
+        "alt": "Technical Blog",
+        "title": "Technical Blog Writing",
+        "description": "Running a technical blog focused on EC development and Shopify customization. Daily posts about practical development know-how and performance improvement case studies.",
         "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify", "Astro"],
         "repo": "https://www.ryoma.online/",
-        "repo_label": "ブログを見る"
+        "repo_label": "View Blog"
       }
     ]
   },
   "about": {
-    "title": "自己紹介",
-    "subtitle": "フリーランスエンジニア",
+    "title": "About Me",
+    "subtitle": "Freelance Engineer",
     "description": [
-      "2022年より個人事業主として活動を開始し、ShopifyやWordPressを使用したECサイト構築をメインに活動しています。",
-      "Shopifyでは50件以上の構築・カスタマイズ実績があり、サブスクリプションや会員制、越境ECなど、多様なビジネスモデルに対応してきました。",
-      "現在は侍エンジニアの講師としても活動し、次世代のエンジニア育成にも携わっています。"
+      "Started working as a freelance developer in 2022, primarily focusing on EC site development using Shopify and WordPress.",
+      "Have completed over 50 Shopify development and customization projects, handling various business models including subscription services, membership sites, and cross-border EC.",
+      "Currently also working as an instructor at Samurai Engineer, contributing to the development of next-generation engineers."
     ]
   },
   "contact": {
-    "title": "プロジェクトのご相談をお待ちしています",
-    "subtitle": "EC構築からサイト改修まで、お気軽にお問い合わせください"
+    "title": "Let's Discuss Your Project",
+    "subtitle": "From EC site development to website renovation, feel free to reach out"
   },
   "footer": {
     "designed": {
-      "designed_with": "デザイン",
-      "designed_by": "制作"
+      "designed_with": "Design",
+      "designed_by": "Created by"
     },
     "developed": {
-      "developed_with": "開発",
-      "developed_by": "制作"
+      "developed_with": "Development",
+      "developed_by": "Created by"
     }
   }
 }
