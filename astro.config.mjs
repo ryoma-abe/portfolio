@@ -30,8 +30,8 @@ export default defineConfig({
     }),
     astroImageTools,
     i18n({
-      defaultLocale: 'es',
-      locales: ['es', 'en']
+      defaultLocale: 'ja',
+      locales: ['ja', 'en']
     }),
     sitemap({
       canonicalURL: URL,
@@ -44,9 +44,9 @@ export default defineConfig({
         image: false
       },
       i18n: {
-        defaultLocale: 'es',
+        defaultLocale: 'ja',
         locales: {
-          es: 'es'
+          es: 'ja'
         }
       },
       serialize(item) {
