@@ -7,6 +7,7 @@ import i18n from '@astrolicious/i18n'
 import sitemap from 'astro-sitemap'
 import playformCompress from '@playform/compress'
 import compressor from 'astro-compressor'
+import partytown from '@astrojs/partytown'
 
 export default defineConfig({
   site: URL,
@@ -19,6 +20,23 @@ export default defineConfig({
   },
   compressHTML: false,
   integrations: [
+    partytown({
+      // Google Analyticsの設定
+      config: {
+        debug: true, // 開発中はデバッグモードを有効に
+        forward: ['dataLayer.push'], // GTMのイベントを転送
+        resolveUrl: (url) => {
+          const replaceUrl = new URL(url)
+          if (replaceUrl.hostname.includes('googletagmanager.com')) {
+            return {
+              url: replaceUrl.href,
+              type: 'script'
+            }
+          }
+          return url
+        }
+      }
+    }),
     tunnel(),
     icon({
       include: {
