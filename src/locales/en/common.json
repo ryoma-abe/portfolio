@@ -117,7 +117,7 @@
         "src": "/src/images/contributions/ryoma-online.png",
         "alt": "Technical Blog",
         "title": "Technical Blog Writing",
-        "description": "Running a technical blog focused on EC development and Shopify customization. Daily posts about practical development know-how and performance improvement case studies.",
+        "description": "Running a technical blog focused on EC development and Shopify customization. Posts about practical development know-how and performance improvement case studies.",
         "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify", "Astro"],
         "repo": "https://www.ryoma.online/",
         "repo_label": "View Blog"

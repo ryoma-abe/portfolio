@@ -71,11 +71,11 @@
         "preview": "サイトを見る"
       },
       {
-        "title": ".CELLESSENCE様 ECサイト",
-        "description": "Shopifyの『Dawn』テーマをベースに、ブランドアイデンティティを反映したカスタマイズを実施。Liquidを活用した複数のオリジナルセクションを開発し、クライアント様自身での柔軟なコンテンツ更新を実現したECサイトを構築しました。",
+        "title": "SNORE512 様",
+        "description": "フレンチブルドッグのコテツくんをモチーフにしたアパレルブランドSNORE512様のECサイトを構築。オーガニックコットンを使用したアパレル製品やグッズを展開するブランドサイトとして実装しました。Printfulとの連携機能を使用し、商品の在庫管理と配送を実装しています。",
         "image": "/src/images/projects/project_02.png",
         "techs": ["HTML", "CSS", "JavaScript", "Shopify"],
-        "link": "https://confit-essence.myshopify.com/",
+        "link": "https://snore512.dog/",
         "preview": "サイトを見る"
       },
       {
@@ -113,7 +113,7 @@
         "src": "/src/images/contributions/ryoma-online.png",
         "alt": "技術ブログ",
         "title": "技術ブログの執筆",
-        "description": "EC開発やShopifyカスタマイズに関する技術ブログを運営。実践的な開発ノウハウや、パフォーマンス改善事例などを毎日発信しています。",
+        "description": "EC開発やShopifyカスタマイズに関する技術ブログを運営。実践的な開発ノウハウや、パフォーマンス改善事例などを発信しています。",
         "techs": ["HTML", "CSS", "JavaScript", "WordPress", "Shopify", "Astro"],
         "repo": "https://www.ryoma.online/",
         "repo_label": "ブログを見る"
