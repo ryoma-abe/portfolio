@@ -21,17 +21,15 @@ export default defineConfig({
   compressHTML: false,
   integrations: [
     partytown({
-      // Google Analyticsの設定
       config: {
-        debug: true, // 開発中はデバッグモードを有効に
-        forward: ['dataLayer.push'], // GTMのイベントを転送
-        resolveUrl: (url) => {
-          const replaceUrl = new URL(url)
-          if (replaceUrl.hostname.includes('googletagmanager.com')) {
-            return {
-              url: replaceUrl.href,
-              type: 'script'
-            }
+        debug: true,
+        forward: ['dataLayer.push'],
+        resolveUrl: (url, location, type) => {
+          if (
+            type === 'script' &&
+            url.hostname.includes('googletagmanager.com')
+          ) {
+            return new URL(url.href)
           }
           return url
         }
