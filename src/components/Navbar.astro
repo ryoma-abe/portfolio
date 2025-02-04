@@ -37,7 +37,12 @@ const links = t('navbar', { returnObjects: true })
       <ToggleSwitch />
     </li>
   </ul>
-  <button id="menu-button">
+  <button
+    id="menu-button"
+    aria-label="メニューを開く"
+    aria-expanded="false"
+    aria-controls="nav-menu"
+  >
     <Icon name="menu" size={36} />
   </button>
 </nav>
