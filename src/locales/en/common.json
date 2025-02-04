@@ -75,11 +75,11 @@
         "preview": "View Site"
       },
       {
-        "title": ".CELLESSENCE EC Site",
-        "description": "Customized Shopify's 'Dawn' theme to reflect brand identity. Developed multiple original sections using Liquid, enabling flexible content updates by the client themselves.",
+        "title": "SNORE512",
+        "description": "Built an EC site for SNORE512, an apparel brand featuring French Bulldog Kotetsu. Implemented as a brand site offering apparel products and goods made with organic cotton. Integrated with Printful for inventory management and shipping.",
         "image": "/src/images/projects/project_02.png",
         "techs": ["HTML", "CSS", "JavaScript", "Shopify"],
-        "link": "https://confit-essence.myshopify.com/",
+        "link": "https://snore512.dog/",
         "preview": "View Site"
       },
       {
