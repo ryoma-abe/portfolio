@@ -31,22 +31,7 @@ const { title, description, metaRobots } = options
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Google Analytics -->
-    <script
-      type="text/partytown"
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-YF2V89PKSE"></script>
-    <script type="text/partytown">
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
-      gtag('config', 'G-YF2V89PKSE', {
-        page_path: window.location.pathname,
-        send_page_view: true
-      })
-    </script>
+
     <title>{title}</title>
 
     <slot name="preconnect" />

@@ -7,7 +7,6 @@ import i18n from '@astrolicious/i18n'
 import sitemap from 'astro-sitemap'
 import playformCompress from '@playform/compress'
 import compressor from 'astro-compressor'
-import partytown from '@astrojs/partytown'
 
 export default defineConfig({
   site: URL,
@@ -20,21 +19,6 @@ export default defineConfig({
   },
   compressHTML: false,
   integrations: [
-    partytown({
-      config: {
-        debug: true,
-        forward: ['dataLayer.push'],
-        resolveUrl: (url, location, type) => {
-          if (
-            type === 'script' &&
-            url.hostname.includes('googletagmanager.com')
-          ) {
-            return new URL(url.href)
-          }
-          return url
-        }
-      }
-    }),
     tunnel(),
     icon({
       include: {
