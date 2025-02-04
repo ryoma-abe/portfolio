@@ -31,20 +31,18 @@ const { title, description, metaRobots } = options
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Google tag (gtag.js) -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YF2V89PKSE"
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-YF2V89PKSE"
     ></script>
-    <script is:inline>
+    <script is:inline defer>
       window.dataLayer = window.dataLayer || []
       function gtag() {
-        // @ts-ignore
         dataLayer.push(arguments)
       }
-      // @ts-ignore
+      window.gtag = gtag
       gtag('js', new Date())
-      // @ts-ignore
-      gtag('config', 'G-YF2V89PKSE')
+      gtag('config', 'G-YF2V89PKSE', {
+        send_page_view: false // 必要な時だけページビューを送信
+      })
     </script>
     <title>{title}</title>
 
