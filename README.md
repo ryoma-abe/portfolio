@@ -6,7 +6,7 @@
 
 | PC | モバイル |
 |:---:|:---:|
-| ![PCのPageSpeed Insightsスコア](/images/pagespeed-pc.png) | ![モバイルのPageSpeed Insightsスコア](/images/pagespeed-mobile.png) |
+| ![PCのPageSpeed Insightsスコア](/src/images/pagespeed-pc.png) | ![モバイルのPageSpeed Insightsスコア](/src/images/pagespeed-mobile.png) |
 
 ## 🚀 パフォーマンス
 - PageSpeed Insights：モバイル/PC ともにスコア100点
